@@ -60,8 +60,10 @@ Big-O gösterimi => o(nlogn)
 
 ## Binary Search Tree Projesi
 ```
+###soru
 [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 Root 5'tir.
+
 5'in solunda '1', sağında ise '7' bulunur.
 1'in solunda '0', sağında ise '3' bulunur.
 7'nin solunda '6', sağında ise '8' bulunur.
@@ -70,4 +72,9 @@ Root 5'tir.
 Seviyelere göre ağacın dizili haldeki sırası:
 
 [5, 1, 7, 0, 3, 6, 8, 2, 4, 9]
+
+              5
+           1  |  7
+       0 | 3     6 | 8
+         2 | 4        9
 ```
