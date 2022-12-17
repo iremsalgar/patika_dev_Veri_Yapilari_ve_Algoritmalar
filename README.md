@@ -6,17 +6,17 @@ Selection Sort Projesi --- Merge Sort Projesi --- Binary Search Tree Projesi
 ```
 [22,27,16,2,18,6] => Selection sort
 
-arrayin toplam elemanı n. ilk olarak en küçüğünü bulmak için n kadar işlem yapıyoruz.
+Verilen arrayin toplam elemanı n'dir. ilk olarak en küçüğünü bulmak için n kadar işlem yapıyoruz.
 
 [2,27,16,22,18,6] => n
 
-Sonra kalanlar arasında en küçüğünü bulmak için n-1 kadar işlem yapıyoruz. Çünkü en küçük sayıyı bulduk ve en başa yazdık, bu yüzden biri elenmiş oldu.
+Ardından kalanlar arasında en küçüğünü bulmak için n-1 kadar işlem yaparız. Çünkü en küçük sayıyı bulduk ve en başa yazdık, bu nedenle bir sayımız elenmiş oldu.
 
 [2,6,16,22,18,27] => n-1
 
-Üçüncü eleman listedeki kalan sayılardan daha küçük olduğu için dokunmuyoruz.
+Üçüncü eleman listedeki kalan sayılardan daha küçük olduğu için dokunmayız.
 
-Son kalana kadar bu işlem devam ediyor ve son kalan için işlem n+1 oluyor.
+Son sayı kalana kadar bu işlem devam edecek ve son kalan için işlem n+1 olacak.
 
 n+(n-1)+(n-2)....n+1 => n*(n+1)/2 => n²+n/2. baskın olan fonksiyo alınır ve katsayılar önemsenmez o yüzden n^2 yi alıyoruz. Yani O(n^2) dir. 
 Bu sort'un big o gösterimi o(n²)dir.
