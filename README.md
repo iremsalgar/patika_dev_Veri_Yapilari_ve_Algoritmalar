@@ -18,13 +18,13 @@ Sonra kalanlar arasında en küçüğünü bulmak için n-1 kadar işlem yapıyo
 
 Son kalana kadar bu işlem devam ediyor ve son kalan için işlem n+1 oluyor.
 
-n+(n-1)+(n-2)....n+1 => n*(n+1)/2 => n²+n/2. baskın olan fonksiyo alınır ve katsayılar önemsenmez o yüzden n^2 yi alıyoruz. Yani O(n^2) dir. *Bu sort'un big o gösterimi o(n²)dir.*
+n+(n-1)+(n-2)....n+1 => n*(n+1)/2 => n²+n/2. baskın olan fonksiyo alınır ve katsayılar önemsenmez o yüzden n^2 yi alıyoruz. Yani O(n^2) dir. **Bu sort'un big o gösterimi o(n²)dir.**
 
-[2,6,16,18,22,27] Dizi bu şekilde sıralanır. Soruda istenen 18 sayısı dizide ortadadır. Ortada olduğu için *18 average case*'dir.
+[2,6,16,18,22,27] Dizi bu şekilde sıralanır. Soruda istenen 18 sayısı dizide ortadadır. Ortada olduğu için 18 average case'dir.
 
 
 
-[7,3,5,8,2,9,4,15,6] 
+[7,3,5,8,2,9,4,15,6] en küçük eleman bulunur ve en baştaki ile yer değiştirir
 
 [2,3,5,8,7,9,4,15,6] n
 
